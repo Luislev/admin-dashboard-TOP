@@ -8,6 +8,7 @@
 [data-theme='light'] {
     --background-color: #EFFBF3;
     --primary-color: #40CE75;
+    --primary-hover-color: #65D78F;
     --secondary-color: #DFF7E7;
     --accent-color: #F73E84;
     --text-color: #071C10;
@@ -16,6 +17,7 @@
 [data-theme='dark'] {
     --background-color: #041008;
     --primary-color: #31BF65;
+    --primary-hover-color: #54D383;
     --secondary-color: #082110;
     --accent-color: #BF084E;
     --text-color: #E2F8EC;
@@ -225,6 +227,21 @@ article {
 
 article i {
     padding-right: 1rem;
+}
+
+.project-icons {
+    justify-self: end;
+    font-size: 1.75rem;
+}
+
+.project-icons a {
+    color: var(--primary-color);
+    text-decoration: none;
+    text-shadow: 1px 1px 4px var(--primary-color);
+}
+
+.project-icons a:hover {
+    color: var(--primary-hover-color);
 }
 
 footer {
