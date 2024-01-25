@@ -178,8 +178,53 @@ aside {
 }
 
 main {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 1rem;
+
     background-color: var(--secondary-color);
     color: var(--text-color);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    grid-row: span 2;
+}
+
+.projects h2 {
+    grid-column: span 2;
+}
+
+article {
+    display: grid;
+    gap: 1rem;
+    padding: 1rem;
+    max-width: 50ch;
+    background-color: var(--background-color);
+    box-shadow: 0 0 0.5rem var(--text-color);
+    color: var(--text-color);
+
+    border-left: 0.5rem solid var(--accent-color);
+    border-radius: 1rem;
+}
+
+.image-container {
+    height: 12rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.image-container img {
+    position: absolute;
+    width: 100%;
+}
+
+article i {
+    padding-right: 1rem;
 }
 
 footer {
