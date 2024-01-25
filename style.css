@@ -134,10 +134,47 @@ header {
 }
 
 aside {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+
     grid-row: 1 / span 3;
     background-color: var(--primary-color);
     color: var(--background-color);
     z-index: 2;
+}
+
+.title-dashboard {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title-dashboard i {
+    font-size: 3rem;
+}
+
+.menu {
+    display: grid;
+    gap: 1rem;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a {
+    display: flex;
+    gap: 1rem;
+
+    text-decoration: none;
+    color: var(--background-color);
+    font-family: var(--heading-text);
+}
+
+.menu li a i {
+    font-size: 1.5rem;
 }
 
 main {
