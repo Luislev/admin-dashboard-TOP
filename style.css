@@ -15,7 +15,7 @@
 
 [data-theme='dark'] {
     --background-color: #041008;
-    --primary-color: ##31BF65;
+    --primary-color: #31BF65;
     --secondary-color: #082110;
     --accent-color: #BF084E;
     --text-color: #E2F8EC;
@@ -43,21 +43,109 @@ h2 {
 }
 
 header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 50%);
+    row-gap: 1rem;
+
     grid-column: 2;
+    padding: 0.5rem 3rem 1.5rem;
     background-color: var(--background-color);
+    color: var(--text-color);
+    z-index: 1;
+    box-shadow: 0 0.2rem 0.5rem #202020;
+}
+
+.profile-container,
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.search-container {
+    grid-column: span 2;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+}
+
+.search-container input {
+    width: 80%;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    border: none;
+    outline: 1px solid var(--primary-color);
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.profile-container {
+    justify-content: flex-end;
+}
+
+.profile-container i {
+    font-size: 1.5rem;
+}
+
+.profile-container img,
+.hi-there img {
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+}
+
+.profile-container img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.hi-there img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.hi-there {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr 100%;
+    column-gap: 1.5rem;
+    align-items: center;
+    justify-content: start;
+}
+
+.hi-there img {
+    grid-row: span 2;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.5rem;
+}
+
+.buttons button {
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-family: var(--heading-text);
+    cursor: pointer;
 }
 
 aside {
     grid-row: 1 / span 3;
     background-color: var(--primary-color);
     color: var(--background-color);
+    z-index: 2;
+}
+
+main {
+    background-color: var(--secondary-color);
+    color: var(--text-color);
 }
 
 footer {
     grid-column: 2;
     background-color: var(--background-color);
-}
-
-main {
-    background-color: var(--secondary-color);
 }
