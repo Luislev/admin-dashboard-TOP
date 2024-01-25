@@ -245,6 +245,28 @@ article i {
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     grid-column: 2;
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
+}
+
+footer a,
+footer p {
+    color: var(--text-color);
+}
+
+footer p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+footer i {
+    padding-right: 0.5rem;
+}
+
+footer a:hover {
+    text-decoration: none;
 }
