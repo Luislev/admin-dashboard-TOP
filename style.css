@@ -290,8 +290,15 @@ article i {
     padding-bottom: 1.25rem;
 }
 
-.announcements div {
+.announcement-content {
     padding: 0.5rem;
+}
+
+.divider {
+    height: 0;
+    width: 100%;
+    align-self: stretch;
+    border: 1px solid var(--secondary-active-color);
 }
 
 footer {
