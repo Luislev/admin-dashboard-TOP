@@ -218,8 +218,9 @@ aside {
 
 main {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 3fr 1fr;
     padding: 1.5rem 1rem;
+    gap: 1.5rem;
 
     background-color: var(--secondary-color);
     color: var(--text-color);
@@ -227,9 +228,8 @@ main {
 
 .projects {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50ch, 1fr));
-    padding: 0 2rem;
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(35ch, 1fr));
+    gap: 1.25rem;
 
     grid-row: span 2;
 }
@@ -242,7 +242,6 @@ article {
     display: grid;
     gap: 1rem;
     padding: 1rem;
-    max-width: 50ch;
     background-color: var(--background-color);
     box-shadow: 0 0 0.5rem var(--text-color);
     color: var(--text-color);
