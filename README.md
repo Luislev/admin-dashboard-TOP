@@ -1,58 +1,30 @@
 # Admin Dashboard - TOP
 
-![Project Preview](img/leivadev.github.io_admin-dashboard-TOP_.png)
+![Project Preview](img/admin-dashboard-TOP-shots.so.png)
 
 ## [Try the demo!](https://leivadev.github.io/admin-dashboard-TOP/)
 
 ## 📃 About the project
 
-Hello there!👋🏼 This is a basic calculator application using HTML, CSS, and JavaScript. It provides a user-friendly interface for performing simple arithmetic operations. Encouraged by [The Odin Project](https://www.theodinproject.com/lessons/foundations-calculator).
-
-## Features
-
-- Basic arithmetic operations like addition, subtraction, multiplication, and division operations.
-- Clear button to reset the input and output.
-- Displays calculations and results clearly.
-- Responsive design for different devices.
-- Dark and light theme mode.
+Hey there!👋🏼 Welcome to this basic dashboard layout crafted with grid CSS. This project aims to provide a simple yet effective user interface for plenty of apps. The design is inspired by the principles taught in [The Odin Project's](https://www.theodinproject.com/lessons/node-path-intermediate-html-and-css-admin-dashboard) lessons on intermediate HTML and CSS for the admin dashboard.
 
 ## 🔧 Built with
 
 - HTML
 - CSS
 - JavaScript
-- Font Awesome
-
-## Installation
-
-1. Clone the repository to your local machine:
-
-    ``` bash
-    git clone https://github.com/Luislev/calculator.git
-    ```
-
-2. Open the project folder:
-
-    ``` bash
-    cd calculator
-    ```
-
-3. Open the `index.html` file in your web browser.
+- Tabler Icons
 
 ## Contributing
 
-Contributions are welcome! Feel free to submit issues and pull requests🙌🏼.
-
-## License
-
-    This project is Distributed under the MIT License.
+Feel free to explore and modify the code to fit your project's needs. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request 🙌🏼.
 
 ## 💯 Acknowledgments
 
 - Inspirations:
-  - [michalosman calculator repo](https://github.com/michalosman/calculator)
-  - [Frontend Mentor](https://www.frontendmentor.io/challenges/calculator-app-9lteq5N29)
-- Icons: [Font Awesome](https://fontawesome.com/)
+  - [Dean Wagner Dashboard Repo](https://github.com/deanwagner/dashboard)
+- Icons: [Tabler Icons](https://tabler.io/icons)
+- Mockups: [shots.so](https://shots.so/)
 
 ## 👨🏼‍💻 Author
 
