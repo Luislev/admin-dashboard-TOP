@@ -332,9 +332,13 @@ article i {
     color: var(--primary-active-color);
 }
 
-.announcements h2,
-.social-media h2 {
-    padding-bottom: 1.25rem;
+.side-main-container {
+    display: grid;
+    gap: 1rem;
+}
+
+.announcements {
+    margin-bottom: 1rem;
 }
 
 .announcement-content {
