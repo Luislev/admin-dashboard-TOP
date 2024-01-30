@@ -243,7 +243,7 @@ article {
     gap: 1rem;
     padding: 1rem;
     background-color: var(--background-color);
-    box-shadow: 0 0 0.5rem var(--text-color);
+    box-shadow: 0 0.1rem 0.25rem var(--text-color);
     color: var(--text-color);
 
     border-left: 0.5rem solid var(--accent-color);
