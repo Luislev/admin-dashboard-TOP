@@ -132,14 +132,14 @@ header {
     grid-row: span 2;
 }
 
-.buttons {
+.buttons-container {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 1.5rem;
 }
 
-.buttons button {
+.buttons-container button {
     padding: 0.5rem 1.5rem;
     border: none;
     border-radius: 1.5rem;
@@ -147,6 +147,10 @@ header {
     color: var(--background-color);
     font-family: var(--heading-text);
     cursor: pointer;
+}
+
+.buttons-container button:hover {
+    background-color: var(--primary-hover-color);
 }
 
 aside {
