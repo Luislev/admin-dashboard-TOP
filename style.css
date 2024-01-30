@@ -286,6 +286,15 @@ article i {
     color: var(--primary-active-color);
 }
 
+.announcements h2,
+.trending h2 {
+    padding-bottom: 1.25rem;
+}
+
+.announcements div {
+    padding: 0.5rem;
+}
+
 footer {
     display: flex;
     align-items: center;
