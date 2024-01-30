@@ -150,6 +150,21 @@ header {
     grid-row: span 2;
 }
 
+.hi-there a {
+    text-decoration: none;
+}
+
+.hi-there i {
+    color: var(--text-color);
+    padding: 0.25rem;
+    border: 2px solid var(--text-color);
+    border-radius: 50%;
+}
+
+.hi-there i:hover {
+    border-width: 3px;
+}
+
 .buttons-container {
     display: flex;
     align-items: center;
