@@ -204,6 +204,7 @@ aside {
 }
 
 .menu li a:hover {
+    font-size: large;
     color: var(--secondary-hover-color);
 }
 
