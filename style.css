@@ -134,11 +134,6 @@ header {
     height: 3rem;
 }
 
-.hi-there img {
-    width: 4rem;
-    height: 4rem;
-}
-
 .hi-there {
     grid-column: span 2;
     display: grid;
@@ -149,6 +144,9 @@ header {
 }
 
 .hi-there img {
+    width: 4rem;
+    height: 4rem;
+
     grid-row: span 2;
 }
 
