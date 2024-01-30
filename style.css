@@ -256,6 +256,22 @@ main {
     grid-column: 1 / -1;
 }
 
+.theodinproject-font {
+    font-family: 'Norse', var(--heading-text);
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.theodinproject-font:hover {
+    font-family: 'Norse Bold', var(--heading-text);
+    color: var(--primary-hover-color);
+}
+
+.theodinproject-font:active {
+    font-family: 'Norse Bold', var(--heading-text);
+    color: var(--primary-active-color);
+}
+
 article {
     display: grid;
     gap: 1rem;
